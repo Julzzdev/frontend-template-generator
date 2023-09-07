@@ -1,0 +1,21 @@
+{
+  "name": "npm-generator",
+  "version": "1.0.0",
+  "description": "An NPM project starter template generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "bin": {
+    "generate": "./index.js"
+  },
+  "keywords": [
+    "generator"
+  ],
+  "author": "Julio Olvera",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.8"
+  }
+}
